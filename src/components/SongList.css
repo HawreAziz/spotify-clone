@@ -1,0 +1,9 @@
+.songlist {
+  margin-left: 30px;
+  margin-right: 10px;
+  padding: 10px;
+}
+
+.songlist > hr {
+  border-color: gray;
+}

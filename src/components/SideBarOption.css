@@ -1,0 +1,14 @@
+.sidebaroption {
+  display: flex;
+  padding: 10px;
+  color: gray;
+  transition: 200ms color ease-in;
+}
+
+.sidebaroption:hover {
+  color: white;
+}
+
+.sidebaroption__icon {
+  margin-right: 10px;
+}

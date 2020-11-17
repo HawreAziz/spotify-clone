@@ -1,0 +1,32 @@
+.sidebar {
+  height: 100vh;
+  min-width: 240px;
+  padding-left: 10px;
+  padding-right: 10px;
+  flex: 0.15;
+  background-color: black;
+  color: white;
+}
+
+.sidebar__logo {
+  height: 80px;
+  object-fit: contain;
+  padding: 10px;
+  margin-right: auto;
+}
+
+.sidebar__playlist {
+  margin-top: 20px;
+}
+
+.sidebar__playlist__title {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: large;
+}
+
+.sidebar__playlist > hr {
+  border: 1px solid #282828;
+  margin: 10px auto;
+  width: 90%;
+}

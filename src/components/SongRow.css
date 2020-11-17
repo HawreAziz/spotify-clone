@@ -1,0 +1,21 @@
+.songrow {
+  margin-top: 20px;
+  display: flex;
+  padding: 5px;
+}
+
+.songrow > img {
+  height: 60px;
+  width: 60px;
+  margin-right: 10px;
+}
+
+.songrow__artists > p {
+  color: gray;
+  font-size: large;
+  margin-top: 5px;
+}
+
+.songrow:hover {
+  background-color: darkslategray;
+}
